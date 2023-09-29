@@ -1,18 +1,26 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Avenir, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(128, 128, 128);
+}
+.container {
+    width: 90%;
+}
+main{
+    background-color: white;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    top: 0px;
 }
 nav ul{
     list-style-type: none;
-}
-nav li{
-    float: left;
-}
-nav ul ::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 nav li{
     float: left;
@@ -20,59 +28,62 @@ nav li{
     text-align: center;
     font-size: 27px;
 }
-nav{
-    width: 100%;
-    margin: 0 auto;
-}
-nav a{
-    display: block;
-    text-decoration: none;
-    color:rgb(110, 65, 7);
-}
 nav a:hover{
     color: rgb(246, 244, 242);
-    border-bottom: 2px solid rgb(125, 63, 9);
-    background-color: rgb(133, 57, 3);
-    
+    border-bottom: 2px solid #662F32;
+    background-color: #662F32;
 }
-nav a{
+nav a{    
     display: block;
     text-decoration: none;
+    color:#662F32;
+    border-bottom: 2px solid transparent; 
     color: black;
-    border-bottom: 2px solid transparent;
-}
-nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
-
-nav{
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-body{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
 h1{
-    float: left;
     width: 100%;
     text-align: center;
-    font-size: 60px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    font-size: 4rem;
 }
-span{
-    color: rgb(115, 58, 5);
+span {
+    color: #662F32;
+    font-size: 3.8rem;
 }
-img {
-    display: flex;
+.img-tete {
     width: 100%;
+    
+}
+article {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    border: solid green;
+
+}
+.carte {
+    /* border: 1px dotted blue; */
+    width: 30%;
+    border: solid red;
+    background-color:#736B65 ;
+    color: white;
+}
+ h2 {
+    text-align: center;
+    color: white;
+    background-color:#662F32 ;
+    width: 100%;
+    padding: 5%;
+}
+.img-plus {
+    margin-left: 80%;
+}
+.img-article {
+    width: 100%;
+    
+    
+}
+footer {
+    height: 20vh;
+    background-color: white;
 }
