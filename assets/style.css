@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Avenir, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 body{
     background-color: rgb(128, 128, 128);
+    
 }
 .container {
-    width: 90%;
+    width: 50%;
+    /* border: 1px solid blue; */
 }
 main{
     background-color: white;
@@ -60,17 +62,21 @@ article {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
-    
-
+    /* border: solid red; */
 }
+
+.p1 {
+    margin-bottom: 5%;
+}    
 
 .carte {
     /* border: 1px dotted blue; */
     width: 30%;
-    background-color:#736B65 ;
+    background-color:rgb(115, 107, 101) ;
     color: white;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: solid red; */
     
 }
  h2 {
@@ -80,22 +86,32 @@ article {
     width: 100%;
     padding: 5%;
 }
+.img-plus:hover {
+       cursor: pointer;
+
+}
+
 .img-plus {
-    margin-left: 80%;
+    display: block;
+    width: 25%;
+    margin: 0;
+    align-self: end;
+
 }
 .img-article {
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .carte-2{
     padding: 1%;
-    text-align: left;
-    border: solid red;
-    
+    text-align: left;    
 }
+
 h3 {
     text-align: left; 
-    padding: 5%;}
+    margin: 2rem 0;
+}
 .pmarron {
     color: #662F32 ;
     font-weight: bold;
@@ -107,17 +123,44 @@ input {
     color: white;
     background-color: #736B65;
     margin-top: 5%;
-
 }
-.reseaux {
-    margin-left: 90%;
-    margin-top: 5%;
+input:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
 }
 
-footer {
-    height: 20vh;
-    background-color: white;
-    color: #736B65;
+.box-footer {
     margin-bottom: 3%;
-    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-between;
+    /* border : solid red; */
+    padding: 1rem;
+    border-top: 2px solid black;
+
+}
+.box-footer img {
+    display: block;
+    margin: 0;
+    width: 20%;
+
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+i {
+    font-size: 2rem;
+    color: #736b65;
+}
+i:hover {
+    color: #662F32;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2.2rem;
 }
