@@ -13,23 +13,26 @@ body{
     width: 50%;
     /* border: 1px solid blue; */
 }
-main{
+main {
     background-color: white;
     margin-top: 2%;
 }
-nav{
+nav {
     width: 100%;
-    background-color: white;
+    /* background-color: white; */
     top: 0px;
+    
 }
 nav ul{
     list-style-type: none;
+    display: flex;
 }
 nav li{
-    float: left;
-    width: 20%;
+    /* float: left; */
+    
+    width: 30%;
     text-align: center;
-    font-size: 27px;
+    font-size: 2rem;
 }
 nav a:hover{
     color: rgb(246, 244, 242);
@@ -64,11 +67,9 @@ article {
     justify-content: space-around;
     /* border: solid red; */
 }
-
 .p1 {
     margin-bottom: 5%;
 }    
-
 .carte {
     /* border: 1px dotted blue; */
     width: 30%;
@@ -76,8 +77,7 @@ article {
     color: white;
     display: flex;
     flex-direction: column;
-    /* border: solid red; */
-    
+    /* border: solid red; */ 
 }
  h2 {
     text-align: center;
@@ -90,7 +90,6 @@ article {
        cursor: pointer;
 
 }
-
 .img-plus {
     display: block;
     width: 25%;
@@ -102,12 +101,10 @@ article {
     width: 100%;
     margin-bottom: 5%;
 }
-
 .carte-2{
     padding: 1%;
     text-align: left;    
 }
-
 h3 {
     text-align: left; 
     margin: 2rem 0;
@@ -117,7 +114,6 @@ h3 {
     font-weight: bold;
     margin-bottom: 3%;
 }    
-
 input {
     padding: 30px;
     color: white;
@@ -128,16 +124,15 @@ input:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     cursor: pointer;
 }
-
 .box-footer {
     margin-bottom: 3%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: white;
     justify-content: space-between;
     /* border : solid red; */
     padding: 1rem;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
 
 }
 .box-footer img {
@@ -153,7 +148,6 @@ input:hover {
     gap: 1rem;
     margin: 0 2rem;
 }
-
 i {
     font-size: 2rem;
     color: #736b65;
